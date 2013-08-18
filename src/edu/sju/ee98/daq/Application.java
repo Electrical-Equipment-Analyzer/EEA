@@ -5,6 +5,7 @@
 package edu.sju.ee98.daq;
 
 import edu.sju.ee98.daq.ui.MainFrame;
+import java.util.Locale;
 
 /**
  *
@@ -17,6 +18,10 @@ public class Application {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        MainFrame mainFrame = new MainFrame();
+//        MainFrame mainFrame = MainFrame().;
+        
+        Locale.setDefault(Locale.US);
+        new Manager();
+
     }
 }
