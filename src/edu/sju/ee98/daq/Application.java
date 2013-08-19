@@ -4,8 +4,9 @@
  */
 package edu.sju.ee98.daq;
 
-import edu.sju.ee98.daq.ui.MainFrame;
 import java.util.Locale;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *

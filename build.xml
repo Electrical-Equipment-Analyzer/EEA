@@ -71,4 +71,10 @@
     nbproject/build-impl.xml file. 
 
     -->
+    <target name="-post-jar">
+        <mkdir dir="${dist.dir}/config" />
+        <copy todir="${dist.dir}/config">
+            <fileset dir="${basedir}/config" includes="**/*" />
+        </copy>
+    </target>
 </project>
