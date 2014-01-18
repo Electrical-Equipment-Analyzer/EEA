@@ -63,6 +63,11 @@
             <artifactId>org-netbeans-modules-projectui</artifactId>
             <version>RELEASE74</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>module-fra-file-fr</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
