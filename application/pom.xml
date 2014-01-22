@@ -3,15 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>edu.sju.ee.eea</groupId>
-        <artifactId>sju-daq-parent</artifactId>
+        <groupId>tw.edu.sju.ee.eea.application</groupId>
+        <artifactId>application-parent</artifactId>
         <version>1.0</version>
     </parent>
 
     <artifactId>application</artifactId>
     <packaging>nbm-application</packaging>
 
-    <name>sju-daq-app</name>
+    <name>sju-daq-application</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -64,9 +64,9 @@
             <version>RELEASE74</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>tw.edu.sju.ee.eea.module</groupId>
             <artifactId>module-fra-file-fr</artifactId>
-            <version>${project.version}</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 

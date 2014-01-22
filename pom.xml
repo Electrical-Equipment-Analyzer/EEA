@@ -3,12 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>edu.sju.ee.eea</groupId>
-    <artifactId>sju-daq-parent</artifactId>
+    <groupId>tw.edu.sju.ee.eea.application</groupId>
+    <artifactId>application-parent</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
     <name>sju-daq-parent</name>
+    <parent>
+        <groupId>tw.edu.sju.ee.eea</groupId>
+        <artifactId>eea-parent</artifactId>
+        <version>1.0</version>
+    </parent>
 
     <repositories>
         <!--
@@ -46,11 +51,11 @@
                         <target>1.6</target>
                     </configuration>
                 </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>2.4</version>
-            </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
