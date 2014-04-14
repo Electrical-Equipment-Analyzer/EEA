@@ -51,7 +51,7 @@
         <dependency>
             <groupId>org.netbeans.modules</groupId>
             <artifactId>org-netbeans-modules-projectui</artifactId>
-            <version>${project.version}</version>
+            <version>${netbeans.version}</version>
         </dependency>
         <dependency>
             <groupId>tw.edu.sju.ee.eea.module</groupId>
