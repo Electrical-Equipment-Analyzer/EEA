@@ -3,15 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>tw.edu.sju.ee.eea.application</groupId>
-        <artifactId>application-parent</artifactId>
-        <version>1.0.1</version>
+        <groupId>tw.edu.sju.ee.eea</groupId>
+        <artifactId>eea</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>application</artifactId>
+    <groupId>tw.edu.sju.ee.eea</groupId>
+    <artifactId>eea-application</artifactId>
     <packaging>nbm-application</packaging>
 
-    <name>sju-daq-application</name>
+    <name>EEA Application</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,7 +46,7 @@
         -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>application-branding</artifactId>
+            <artifactId>eea-branding</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
@@ -54,9 +55,19 @@
             <version>${netbeans.version}</version>
         </dependency>
         <dependency>
-            <groupId>tw.edu.sju.ee.eea.module</groupId>
-            <artifactId>module-fra-file-fr</artifactId>
-            <version>1.0.1</version>
+            <groupId>tw.edu.sju.ee.eea.module.fra</groupId>
+            <artifactId>module-fra-file</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>tw.edu.sju.ee.eea.module.iepe</groupId>
+            <artifactId>module-iepe-file</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>tw.edu.sju.ee.eea.module.iepe</groupId>
+            <artifactId>module-iepe-project</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
