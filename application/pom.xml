@@ -60,14 +60,14 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>tw.edu.sju.ee.eea.module.iepe</groupId>
-            <artifactId>module-iepe-file</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>tw.edu.sju.ee.eea.module.signal</groupId>
+            <artifactId>module-signal-file</artifactId>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>tw.edu.sju.ee.eea.module.iepe</groupId>
-            <artifactId>module-iepe-project</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>tw.edu.sju.ee.eea.module.signal</groupId>
+            <artifactId>module-signal-project</artifactId>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -77,6 +77,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>nbm-maven-plugin</artifactId>
                 <configuration>
+                    <etcConfFile>src/config/eea.conf</etcConfFile>
                     <installerOsLinux>false</installerOsLinux>
                     <installerOsMacosx>false</installerOsMacosx>
                     <installerOsSolaris>false</installerOsSolaris>
